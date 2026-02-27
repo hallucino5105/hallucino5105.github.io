@@ -1,5 +1,5 @@
 module.exports = {
-  title: "my_portal_site",
+  title: "hallucino5105",
   version: "0.0.0",
 
   serve: {
