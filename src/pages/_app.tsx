@@ -8,6 +8,7 @@ import config from "@/root/config";
 import type { AppProps } from "next/app";
 import { MantineProvider } from "@mantine/core";
 import { Notifications } from "@mantine/notifications";
+import { fontVariables } from "@/assets/theme/fonts";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -16,7 +17,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>{config.title}</title>
       </Head>
-      <Component {...pageProps} />
+      <div className={fontVariables} style={{ display: "contents" }}>
+        <Component {...pageProps} />
+      </div>
     </MantineProvider>
   );
 }

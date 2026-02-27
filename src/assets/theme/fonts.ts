@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 
 export const fontOpenSans = localFont({
-  src: "../../../files/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf",
+  src: "../../../files/fonts/OpenSans/OpenSans-VariableFont_wdth,wght.ttf",
   display: "swap",
   variable: "--fonts-open-sans",
   preload: false,
@@ -22,7 +22,7 @@ export const fontOverpass = localFont({
 });
 
 export const fontNotoSansJP = localFont({
-  src: "../../../files/fonts/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf",
+  src: "../../../files/fonts/NotoSansJP/NotoSansJP-VariableFont_wght.ttf",
   display: "swap",
   preload: false,
   variable: "--fonts-noto-sans-jp",
