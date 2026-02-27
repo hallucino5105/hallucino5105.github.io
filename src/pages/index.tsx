@@ -39,8 +39,8 @@ const LINKS = [
   {
     icon: IconBrandX,
     label: "X (Twitter)",
-    sub: "@hallucino5105",
-    href: "https://x.com/hallucino5105",
+    sub: "@hallucino_5105",
+    href: "https://x.com/hallucino_5105",
   },
 ];
 
